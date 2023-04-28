@@ -15,4 +15,5 @@ You should also install the following packages:
 ```
 pip install pytelegrambotapi
 pip install SQLAlchemy
+pip install psycopg2
 ```
