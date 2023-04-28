@@ -13,8 +13,7 @@ def start(message):
     btn4 = types.KeyboardButton('Найти книгу')
     btn5 = types.KeyboardButton('Взять себе')
     btn6 = types.KeyboardButton('Вернуть')
-    btn7 = types.KeyboardButton('INFO по книге')
-    markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7)
+    markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
     bot.send_message(message.from_user.id, "Добро пожаловать в чат бота-библиотеки! Выберите действие", reply_markup=markup)
 
 
@@ -48,10 +47,6 @@ def get_text_messages(message):
     if message.text == 'Вернуть': 
         answer =bot.send_message(message.chat.id, 'Введите название книги') 
         bot.register_next_step_handler(answer, retrieve_book)
-
-    if message.text == 'INFO по книге': 
-        answer = bot.send_message(message.chat.id, 'Введите название книги')
-        bot.register_next_step_handler(answer, stats_book)  
 
 ans =[]
 # ADD
