@@ -11,5 +11,8 @@ To launch the bot, you need:
 2) run the entire project using `__init__.py ` or run `models.py ` 
 3) launch `telegram.py`
 
-you should also install the following packages:
-```pip install pytelegrambotapi```
+You should also install the following packages:
+```
+pip install pytelegrambotapi
+pip install SQLAlchemy
+```
