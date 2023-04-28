@@ -10,3 +10,6 @@ To launch the bot, you need:
 1) enter your data about an empty database in postgresql - name, port, password if available 
 2) run the entire project using `__init__.py ` or run `models.py ` 
 3) launch `telegram.py`
+
+you should also install the following packages:
+`pip install pytelegrambotapi`
