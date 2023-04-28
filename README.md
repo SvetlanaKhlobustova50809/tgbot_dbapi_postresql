@@ -12,4 +12,4 @@ To launch the bot, you need:
 3) launch `telegram.py`
 
 you should also install the following packages:
-`pip install pytelegrambotapi`
+```pip install pytelegrambotapi```
